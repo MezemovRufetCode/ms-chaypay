@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    url: jdbc:postgresql://localhost:5433/cp-chaypay
+    username: postgres
+    password: '_8t_ABy=R47pzC9Z+KfG'
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 9000
+  servlet:
+    context-path: /api

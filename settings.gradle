@@ -1,0 +1,9 @@
+rootProject.name = 'ms-chaypay'
+
+include 'app'
+include 'shared'
+include 'user'
+include 'card'
+include 'transaction'
+include 'review'
+include 'profile'

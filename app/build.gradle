@@ -1,0 +1,8 @@
+dependencies {
+    implementation project(":card")
+    implementation project(":review")
+    implementation project(":user")
+    implementation project(":profile")
+    implementation project(":transaction")
+    runtimeOnly 'org.postgresql:postgresql:42.3.4'
+}

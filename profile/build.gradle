@@ -1,0 +1,6 @@
+dependencies {
+    implementation project(":shared")
+    implementation project(":user")
+    implementation project(":review")
+    implementation project(":transaction")
+}
